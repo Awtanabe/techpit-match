@@ -7,3 +7,8 @@
 - FileReader
 
 reader.onloadイベントを呼ぶため（ファイルの読み込みが成功したときに発生するイベント）
+
+
+## scssのファイル構造
+
+@import "users/sign_in";
