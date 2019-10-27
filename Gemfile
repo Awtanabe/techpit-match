@@ -28,6 +28,7 @@ gem 'jquery-rails'
 gem "font-awesome-sass"
 gem 'carrierwave', '~> 1.0'
 gem 'mini_magick'
+gem 'rb-readline'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
