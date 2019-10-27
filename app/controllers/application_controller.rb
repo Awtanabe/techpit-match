@@ -6,5 +6,8 @@ class ApplicationController < ActionController::Base
 
   def configure_permitted_parameters
     devise_parameter_sanitizer.permit(:sign_up, keys: %i(name self_introduction sex img_name))
+
+    # ここはaccount_update　編集のときらしい　上はsign_upだからcrudの操作それぞれでパラメーターを設定できるのか
+    devise_parameter_sanitizer.permit(:account_update, keys: %i(name self_introduction sex img_name))
   end
 end
