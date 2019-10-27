@@ -4,9 +4,17 @@
     <title>TechpitMatch</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <link rel="stylesheet" type="text/css" href="css/jTinder.css">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- transform2d lib -->
+    <script type="text/javascript" src="js/jquery.transform2d.js"></script>
 
+    <!-- jTinder lib -->
+    <script type="text/javascript" src="js/jquery.jTinder.js"></script>
+
+    <!-- jTinder initialization script -->
+    <script>$("#tinderslide").jTinder();</script>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
